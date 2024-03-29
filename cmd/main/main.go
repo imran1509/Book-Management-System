@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	_ "githb.com/jinzhu/gorm/dialect/mysql"
 	"github.com/gorilla/mux"
 	"github.com/imran1509/book-management-system/pkg/routes"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 func main() {
